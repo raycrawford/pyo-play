@@ -1,0 +1,10 @@
+name: pyo-play
+dependencies:
+- python=3.7.10
+- pip
+- pip:
+  - pyo
+  - wxpython
+
+# Pyo can not use a version of Python newer than 3.7
+# wx is needed for pyo... not sure why, but it threw a warning
